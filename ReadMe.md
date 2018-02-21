@@ -1,5 +1,7 @@
 Naive Bayes classifier trained to discriminate between English, Afrikaans, and Dutch phrases. The classifier was trainined and tested using a labelled dataset containing 2761 phrases. Training was done on a subset of 2000 phrases, while the remaining 761 phrases were kept separate for evaluation of the classifier's accuracy. The final accuracy achieved by the model was 97.5%.
 
+NOTE: The classifier is termed *Naive* since it assumes that all features are independent of each other.
+
 ### External Libraries
 ```python
 from sklearn.feature_extraction.text import CountVectorizer
